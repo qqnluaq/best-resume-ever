@@ -1,31 +1,68 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+  first: Benjamin
+  middle: Ward
+  last: Jubb
+
+about: Hi, my name is Ben and I've been writing code since 1980.
+    I'm obsessive about details. 
+    I am very productive with dynamic languages.     
+
 position: Software Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1969
+  location: Victoria
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
+- company: Vivid Solutions Inc
+  position: Senior Developer
+  timeperiod: since January 2015
   description: Programming and watching cute cat videos.
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
+- company: Abebooks Inc
+  position: Software Development Engineer
+  timeperiod: September 2009 - August 2014
   description: Fulfillment of extremely important tasks.
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
+- company: Refractions Research
+  position: Software Developer
+  timeperiod: July 2007 - July 2009
+  description: Making coffee and baking cookies.
+
+- company: Keen Edge Software
+  position: Software Developer
+  timeperiod: September 2006 - March 2007
+  description: Making coffee and baking cookies.
+
+- company: Pacific GeoTech Systems
+  position: Software Developer
+  timeperiod: March 2003 - September 2005
+  description: Making coffee and baking cookies.
+
+- company: Vivid Solutions Inc
+  position: Software Developer
+  timeperiod: October 2002 - March 2003
+  description: Making coffee and baking cookies.
+
+- company: AutoVu Technologies
+  position: Software Developer
+  timeperiod: September 1998 - April 2001
+  description: Making coffee and baking cookies.
+
+- company: HY Louie Inc
+  position: Software Developer
+  timeperiod: March 1997 - July 1998
+  description: Making coffee and baking cookies.
+
+- company: Cognologic Software Inc
+  position: Software Developer
+  timeperiod: September 1995 - March 1997
+  description: Making coffee and baking cookies.
+
+- company: BC Ministry of Forests
+  position: Software Developer
+  timeperiod: September 1992 - July 1995
   description: Making coffee and baking cookies.
 
 education:
@@ -59,12 +96,12 @@ knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
   (English and Klingon).
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
-# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, nl, he, zh-tw, lt, ko
+  email: benjubb+cv@gmail.com
+  phone: +1 250 8130171
+  street: 380 Arnold Ave
+  city: Victoria, BC, Canada
+  # website: johndoe.com
+  github: qqnluaq
+
 lang: en
 `
