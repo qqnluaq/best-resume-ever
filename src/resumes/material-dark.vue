@@ -75,7 +75,7 @@
       </div>
     </a>
 
-    <div class="item last">
+    <div class="item">
       <div class="section-headline">
         {{ lang.headings.skills }}
       </div>
@@ -90,6 +90,16 @@
         </div>
       </div>
     </div>
+
+    <div class="item last">
+      <div class="section-headline">
+        About
+      </div>
+      <div class="text" style="width:83%">
+        <span>{{person.about}}</span>
+      </div>
+    </div>
+
   </div>
 
   <div class="rightCol">
@@ -101,10 +111,14 @@
     <div class="section-headline">{{ lang.headings.experience }}</div>
     <div class="block" v-for="experience in person.experience" :key="experience.company">
       <div class="block-helper"></div>
-      <div class="headline">{{experience.position}} - {{experience.company}}</h3>
-        <div class="subheadline">{{experience.timeperiod}}</div>
+      <div class="headline">{{experience.position}} &mdash; {{experience.company}}</h3>
+        <div class="subheadline">{{experience.city}} &mdash; {{experience.timeperiod}}</div>
         <p class="info">
-          {{experience.description}}
+          <ul>
+          <li v-for="item in experience.description" :key="item">
+            {{item}}
+          </li>
+          </ul>
         </p>
       </div>
     </div>
@@ -148,22 +162,22 @@ a {
 }
 .title {
   right:25px;
-  padding-left:20px;
-  padding-top:20px;
+  // padding-left:20px;
+  // padding-top:20px;
   bottom:25px;
   h2 {
     text-transform:uppercase;
     display:block;
-    font-size:1.17em;
+    font-size:22px;
     -webkit-margin-before:1em;
-    -webkit-margin-after:1em;
+    // -webkit-margin-after:1em;
     -webkit-margin-start:0;
     -webkit-margin-end:0;
     color:white;
     color:rgba(0,0,0,0.7);
     padding-top:0;
     margin-top:0;
-    letter-spacing:10px;
+    letter-spacing:8px;
     font-weight:400;
   }
   div {
@@ -180,9 +194,9 @@ a {
     color:#16151c;
     color:rgba(63,61,60,0.71);
     display:block;
-    font-size:0.67em;
-    font-size:10pt;
-    -webkit-margin-before:2.33em;
+    // font-size:0.8em;
+    font-size:12pt;
+    // -webkit-margin-before:2.33em;
     -webkit-margin-start:0;
     -webkit-margin-end:0;
     padding-top:0;
@@ -194,9 +208,9 @@ a {
   text-transform:uppercase;
   font-weight:500;
   letter-spacing:3px;
-  font-size:10pt;
+  font-size:12pt;
   opacity:0.8;
-  margin-left:20px;
+  // margin-left:20px;
   margin-top:40px;
   margin-bottom:20px;
   color:#3f3d3c;
@@ -261,10 +275,10 @@ h4 {
   display:flex;
   flex-direction:column;
   .block {
-    width:90%;
+    width:80%;
     position:relative;
     background-color:#ffffff;
-    padding:20px;
+    padding:10px;
     margin-top:5px;
     margin-bottom:5px;
     display:inline-block;
@@ -286,6 +300,16 @@ h4 {
       color:rgba(0,0,0,0.870588);
       margin-bottom:0;
       padding-top:20px;
+      ul {
+        margin-left: 15px;
+        line-height: 1.3;
+        margin-top: -15px;
+        li {
+          list-style-type: disc;
+          padding: 0;
+          margin-top: 5px;
+        }
+      }
     }
     .icon {
       width:16%;
@@ -433,6 +457,9 @@ h4 {
         }
       }
     }
+  }
+  .item.last  {
+    padding-bottom: 15px;
   }
   .item.last .text {
     border-bottom-style:none;

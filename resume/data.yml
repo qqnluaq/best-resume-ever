@@ -4,9 +4,10 @@ name:
   middle: Ward
   last: Jubb
 
-about: Hi, my name is Ben and I've been writing code since 1980.
-    I'm obsessive about details. 
-    I am very productive with dynamic languages.     
+about: "Hi, my name is Benjamin and I've been writing code since 1980.
+    I'm obsessive about details.
+    I like my coffee <strong> and \#000000.
+    I prefer my types dynamic, and my compilers fast."
 
 position: Software Developer
 
@@ -16,84 +17,119 @@ birth:
 
 experience:
 - company: Vivid Solutions Inc
+  city: Victoria, BC
   position: Senior Developer
   timeperiod: since January 2015
-  description: Programming and watching cute cat videos.
+  description: 
+    - Primary developer of Common Web Mapping Client, a full-featured mapping component for line-of-business applications. [ portal.nrs.gov.bc.ca/cwmc-lib/v1.7.2/sdk/ ]
+    - Constructed a plugin for GeoServer to enhance layer security.
+    - Developed a system for maintaining configuration of a system using a hierarchical REST interface.
 
 - company: Abebooks Inc
+  city: Victoria, BC
   position: Software Development Engineer
   timeperiod: September 2009 - August 2014
-  description: Fulfillment of extremely important tasks.
+  description:
+    - Maintained a full-stack web application, with a small team.
+    - Performed on-call duties.
 
 - company: Refractions Research
+  city: Victoria, BC
   position: Software Developer
   timeperiod: July 2007 - July 2009
-  description: Making coffee and baking cookies.
+  description: 
+    - Developed a system for a automatic route calculation for water meter readers.
+    - Made web-app for maintaining job schedules and monitoring progress of running jobs.
+    - Made a proxy for Web Mapping Services, that combined multiple WMS services to appear as one.
 
 - company: Keen Edge Software
+  city: Victoria, BC
   position: Software Developer
   timeperiod: September 2006 - March 2007
-  description: Making coffee and baking cookies.
+  description: 
+    - Developed a point-of-sale system.
+    - Made a system for monitoring a netowrk of cameras, and following patrons automatically as they moved through a park.
+    - Made a application for reporting gas pipe inspections.
+    - Maintained an application for managing electric company field resources.
 
 - company: Pacific GeoTech Systems
+  city: Victoria, BC
   position: Software Developer
   timeperiod: March 2003 - September 2005
-  description: Making coffee and baking cookies.
+  description: 
+    - Made a system for determining the status of mineral tenure grid cells from legacy tenures.
+    - Developed a number of extensions to ESRI ArcMap.
 
 - company: Vivid Solutions Inc
+  city: Victoria, BC
   position: Software Developer
   timeperiod: October 2002 - March 2003
-  description: Making coffee and baking cookies.
+  description: 
+    - Developed a map viewer for WMS services in .NET
 
 - company: AutoVu Technologies
+  city: Montreal, QC
   position: Software Developer
   timeperiod: September 1998 - April 2001
-  description: Making coffee and baking cookies.
+  description: 
+    - Developed an application for managing automated parking lots.
+    - Assisted in integrating the parking lot application with third party hardware.
 
 - company: HY Louie Inc
-  position: Software Developer
+  city: Vancouver, BC
+  position: Assistent to Director of IT
   timeperiod: March 1997 - July 1998
-  description: Making coffee and baking cookies.
+  description: 
+    - Helped fix computers, install applications, general trouble-shooting.
 
 - company: Cognologic Software Inc
+  city: Montreal, QC
   position: Software Developer
   timeperiod: September 1995 - March 1997
-  description: Making coffee and baking cookies.
+  description:
+    - Developed an online marketplace system.
+    - Developed an online system for selling satelite imagery.
 
 - company: BC Ministry of Forests
+  city: Victoria, BC
   position: Software Developer
   timeperiod: September 1992 - July 1995
-  description: Making coffee and baking cookies.
+  description:
+    - Developed a map viewer application
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Bachelor of Science, University of Victoria
+  timeperiod: 1988 - 1993
+  description: Major in Computer Science
 
 # skill level goes 0 to 100
 skills:
 - name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
+  level: 90
+- name: CSS
+  level: 90
 - name: JavaScript
-  level: 97
+  level: 95
 - name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
   level: 80
-- name: ES.Next
+- name: JQuery
+  level: 80
+- name: Java
+  level: 75
+- name: C#
   level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Vue
+  level: 40
+- name: SQL
+  level: 80
+- name: Oracle
+  level: 30
+- name: MySQL
+  level: 60
+- name: PostgreSQL
+  level: 50
+
+knowledge: Proficient with Mac OS, Linux or Windows.
 
 contact:
   email: benjubb+cv@gmail.com
